@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.movie {
+	@apply w-48 h-[18rem] select-none shadow-md rounded-lg flex-none overflow-hidden transform transition-all  hover:shadow-indigo-400/40  hover:shadow-2xl cursor-pointer;
+}
